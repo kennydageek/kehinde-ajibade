@@ -109,7 +109,7 @@ const projects = [
 
 <template>
   <main
-    class="bg-[#101B38] h-[100vh] relative overflow-hidden md:overflow-scroll"
+    class="bg-[#101B38] h-[100vh] relative overflow-x-hidden overflow-y-scroll md:overflow-scroll"
   >
     <div
       class="cursor-effect absolute rounded-full pointer-events-none"
