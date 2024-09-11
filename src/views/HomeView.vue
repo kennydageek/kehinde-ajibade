@@ -108,7 +108,9 @@ const projects = [
 </script>
 
 <template>
-  <main class="bg-[#101B38] h-[100vh] relative overflow-scroll">
+  <main
+    class="bg-[#101B38] h-[100vh] relative overflow-hidden md:overflow-scroll"
+  >
     <div
       class="cursor-effect absolute rounded-full pointer-events-none"
       :style="{ top: cursorY + 'px', left: cursorX + 'px' }"
