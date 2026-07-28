@@ -737,6 +737,9 @@ h6,
 }
 
 .info-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: clamp(6rem, 13vw, 12rem) var(--info-gutter);
   text-align: center;
 }
@@ -751,17 +754,19 @@ h6,
 }
 
 .info-cta h2 {
+  width: 100%;
   max-width: 15ch;
-  margin: auto;
+  margin-inline: auto;
   font-size: clamp(3rem, 6.5vw, 7rem);
 }
 
 .info-cta > div {
   display: flex;
+  width: 100%;
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
-  margin-top: 3rem;
+  margin: 3rem auto 0;
 }
 
 .info-footer {
