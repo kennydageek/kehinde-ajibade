@@ -1,29 +1,21 @@
-# kehinde-portfolio
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-This template should help get you started developing with Vue 3 in Vite.
+# Run and deploy your AI Studio app
 
-## Recommended IDE Setup
+This contains everything you need to run your app locally.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+View your app in AI Studio: https://ai.studio/apps/221ce8fe-24fc-4e7a-9bdb-a248537561cf
 
-## Customize configuration
+## Run Locally
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+**Prerequisites:**  Node.js
 
-## Project Setup
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
+# portfolio-2
